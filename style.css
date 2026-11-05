@@ -1,0 +1,189 @@
+/* Zion Taylor - Looking Back Assignment */
+
+/* Google Fonts: Oswald for headings, Inter for body text */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Oswald:wght@500;700&display=swap');
+
+/* Theme variables */
+:root {
+  /* Navbar */
+  --nav-background: #14213d;      /* deep navy */
+  --nav-foreground: #ffffff;      /* white */
+
+  /* Footer */
+  --footer-background: #fca311;   /* racing orange */
+  --footer-foreground: #14213d;   /* deep navy */
+
+  /* Buttons */
+  --button-background: #fca311;
+  --button-foreground: #14213d;
+  --button-hover-background: #14213d;
+  --button-hover-foreground: #ffffff;
+
+  /* Page */
+  --page-background: #f5f5f5;     /* light grey */
+  --page-foreground: #1b1b1b;     /* near black */
+  --card-background: #ffffff;     /* white */
+  --accent: #fca311;
+
+  /* Fonts */
+  --heading-font: 'Oswald', sans-serif;
+  --body-font: 'Inter', sans-serif;
+
+  /* Spacing */
+  --item-spacing: 3rem;
+  --pane-padding: 1rem 2rem;
+}
+
+/* Base page */
+body {
+  margin: 0;
+  background-color: var(--page-background);
+  color: var(--page-foreground);
+  font-family: var(--body-font);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  letter-spacing: 0.5px;
+}
+
+/* Navbar */
+nav {
+  background-color: var(--nav-background);
+  color: var(--nav-foreground);
+  padding: var(--pane-padding);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 2rem;
+}
+
+.nav-title {
+  font-family: var(--heading-font);
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+}
+
+nav a {
+  color: var(--nav-foreground);
+  text-decoration: none;
+  font-family: var(--heading-font);
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+/* Main content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--pane-padding);
+}
+
+.intro {
+  margin-top: 2rem;
+}
+
+.intro h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0;
+}
+
+/* Footer */
+footer {
+  background-color: var(--footer-background);
+  color: var(--footer-foreground);
+  padding: var(--pane-padding);
+  text-align: center;
+  margin-top: var(--item-spacing);
+  font-weight: 600;
+}
+
+footer a {
+  color: var(--footer-foreground);
+}
+
+/* Buttons */
+button,
+.button {
+  background-color: var(--button-background);
+  color: var(--button-foreground);
+  font-family: var(--heading-font);
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+}
+
+button:hover,
+.button:hover {
+  background-color: var(--button-hover-background);
+  color: var(--button-hover-foreground);
+}
+
+.back-to-top {
+  text-align: center;
+}
+
+/* Whitespace between the items */
+.item {
+  background-color: var(--card-background);
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+  margin-bottom: var(--item-spacing);
+  box-shadow: 0 2px 8px rgba(20, 33, 61, 0.08);
+  scroll-margin-top: 1.5rem;
+}
+
+.item h1 {
+  margin-top: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--accent);
+}
+
+.item h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.25rem;
+  font-size: 1.2rem;
+}
+
+.item p {
+  margin-top: 0;
+}
+
+/* Table in the Looking Back section */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+th {
+  background-color: var(--nav-background);
+  color: var(--nav-foreground);
+  font-family: var(--heading-font);
+  text-align: left;
+}
+
+th,
+td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #dddddd;
+}
+
+.error {
+  color: #b00020;
+}

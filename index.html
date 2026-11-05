@@ -27,7 +27,7 @@
       <p>Five things I've put real time into, how I'd grade each one, and what they say about where I'm headed.</p>
     </header>
 
-    <!-- The markdown files from the items folder get loaded in here -->
+    <!-- The markdown files get loaded in here -->
     <div id="items"></div>
 
     <div class="back-to-top">
@@ -42,39 +42,39 @@
   <!-- marked turns markdown into HTML -->
   <script src="https://cdn.jsdelivr.net/npm/marked@18.1.3/lib/marked.umd.js"></script>
   <script>
-    // List every markdown file in the items folder, in the order they should show up
-    const items = [
-      "01-high-school-soccer.md",
-      "02-bakery.md",
-      "03-one-armed-robber.md",
-      "04-canadas-wonderland.md",
-      "05-roblox-game.md",
-      "06-looking-back.md"
+    // Each section on the page: which markdown file it comes from,
+    // and the id the nav links use to jump to it
+    const sections = [
+      { file: "items/experience_1.md", id: "high-school-soccer" },
+      { file: "items/experience_2.md", id: "bakery" },
+      { file: "items/experience_3.md", id: "one-armed-robber" },
+      { file: "items/experience_4.md", id: "canadas-wonderland" },
+      { file: "items/experience_5.md", id: "roblox-game" },
+      { file: "about.md", id: "looking-back" }
     ];
 
-    async function loadItems() {
+    async function loadSections() {
       const container = document.getElementById("items");
 
-      for (const file of items) {
+      for (const section of sections) {
         try {
-          const response = await fetch("items/" + file);
-          if (!response.ok) throw new Error(file + " not found");
+          const response = await fetch(section.file);
+          if (!response.ok) throw new Error(section.file + " not found");
           const markdown = await response.text();
 
           const article = document.createElement("article");
           article.className = "item";
-          // "01-high-school-soccer.md" becomes "high-school-soccer" so the nav links can jump to it
-          article.id = file.replace(/^\d+-/, "").replace(".md", "");
+          article.id = section.id;
           article.innerHTML = marked.parse(markdown);
           container.appendChild(article);
         } catch (error) {
           container.innerHTML +=
-            "<p class='error'>Couldn't load " + file + ". Open the page through a server instead of double-clicking the file.</p>";
+            "<p class='error'>Couldn't load " + section.file + ". Open the page through a server instead of double-clicking the file.</p>";
         }
       }
     }
 
-    loadItems();
+    loadSections();
   </script>
 </body>
 
