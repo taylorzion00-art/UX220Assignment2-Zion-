@@ -11,7 +11,7 @@
 <body id="top">
   <nav>
     <span class="nav-title">Zion Taylor</span>
-        <div class="nav-links">
+    <div class="nav-links">
       <a href="#high-school-soccer">Soccer</a>
       <a href="#bakery">Bakery</a>
       <a href="#one-armed-robber">One-Armed Robber</a>
@@ -45,7 +45,7 @@
   <script>
     // Each section on the page: which markdown file it comes from,
     // and the id the nav links use to jump to it
-    c    const sections = [
+    const sections = [
       { file: "items/experience_1.md", id: "high-school-soccer" },
       { file: "items/experience_2.md", id: "bakery" },
       { file: "items/experience_3.md", id: "one-armed-robber" },
@@ -55,13 +55,28 @@
       { file: "contact.md", id: "contact" }
     ];
 
+    function showError(container, message) {
+      const error = document.createElement("p");
+      error.className = "error";
+      error.textContent = message;
+      container.appendChild(error);
+    }
+
     async function loadSections() {
       const container = document.getElementById("items");
+
+      // Stop here with a clear message if the markdown library didn't load
+      if (typeof marked === "undefined") {
+        showError(container, "The markdown library didn't load. Check your internet connection and refresh the page.");
+        return;
+      }
 
       for (const section of sections) {
         try {
           const response = await fetch(section.file);
-          if (!response.ok) throw new Error(section.file + " not found");
+          if (!response.ok) {
+            throw new Error("not found");
+          }
           const markdown = await response.text();
 
           const article = document.createElement("article");
@@ -70,8 +85,15 @@
           article.innerHTML = marked.parse(markdown);
           container.appendChild(article);
         } catch (error) {
-          container.innerHTML +=
-            "<p class='error'>Couldn't load " + section.file + ". Open the page through a server instead of double-clicking the file.</p>";
+          showError(container, "Couldn't load " + section.file + ". Check that the file exists and the name is spelled the same way.");
+        }
+      }
+
+      // If the page was opened with a link like #bakery, jump there once everything has loaded
+      if (window.location.hash) {
+        const target = document.querySelector(window.location.hash);
+        if (target) {
+          target.scrollIntoView();
         }
       }
     }
