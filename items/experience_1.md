@@ -1,19 +1,25 @@
-# My First Job: Working at a Bakery
+# Playing on My High School Soccer Team
 
 ## What was it that I did?
-My first job was at a bakery. I was supposed to be helping out customers at the front, but a lot of my shifts ended up being physical work in the back.
+
+I played on my high school's soccer team. We had practice after school a few days a week plus games against other schools, so it took up a lot of my time. Even when school got busy, I kept showing up.
 
 ## When did I do it?
-About four years ago, when I was 16.
+
+Grade 10 all the way through Grade 12.
 
 ## What was good about it?
-The free food was a big perk. There was always something to grab. I also worked with a lot of people around my age who were cool, which made the shifts go by way faster.
+
+Mostly the team. When you're putting in the same work as everyone else every week, you end up getting pretty close. It also kept me active and gave my week some structure.
 
 ## What was my favourite memory of it?
-Whenever the bakers were experimenting with new recipes, they would let me try them first and tell them if they were good or not. Being the taste tester before something went out to customers was easily the best part of the job.
+
+We made the playoffs and ended up playing a team that had already beaten us earlier in the season. This time we won. Everyone was so hyped after, and nobody stopped talking the whole bus ride home.
 
 ## What didn't I enjoy about it?
-My supervisor was pretty unpleasant. I would have rather been out front helping customers, but they always had me doing a bunch of physical labour instead.
 
-## Grade: C
-It was ok. For a first job it wasn't that bad, but the supervisor brought the whole experience down.
+Fall practices in the cold and rain weren't fun. Game days were tough too, because I'd get home late and still have homework waiting for me.
+
+## Grade: A
+
+I honestly couldn't ask for more. Even with the cold practices, I'd do it all again.

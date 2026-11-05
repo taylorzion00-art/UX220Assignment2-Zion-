@@ -1,19 +1,25 @@
-# Playing One-Armed Robber with My Friends
+# One-Armed Robber with My Friends
 
 ## What was it that I did?
-I played a game called One-Armed Robber with my friends. The goal is to work together to rob a bank without getting caught by the cops, except everyone only has one arm, so even simple things get complicated fast.
+
+My friends and I played a game called One-Armed Robber. You work as a team to rob a bank and get away without the cops catching you. The catch is that everyone only has one arm, so even opening a door turns into a whole thing.
 
 ## When did I do it?
+
 Earlier this year.
 
 ## What was good about it?
-Getting to play with my friends. Since everyone only has one arm, you have to actually work as a team, and most of the time it turns into total chaos, which is half the fun.
+
+Playing with my friends. With only one arm each, you can't really do anything alone, so we had to work together. It usually went wrong, and that's what made it fun.
 
 ## What was my favourite memory of it?
-When my friend got us caught five times in a row in the dumbest ways possible. It was so bad that nobody could even be mad about it. We were all just dying laughing.
+
+One of my friends got us caught five times in a row, every time in the dumbest way you could think of. By the fifth time none of us could even be mad. We were all just laughing.
 
 ## What didn't I enjoy about it?
-How long it ended up taking. With all the restarts it dragged on forever, and because of him we never actually finished.
+
+It took way too long. Every time we got caught we had to restart, and between all the restarts (mostly thanks to him) we never actually finished.
 
 ## Grade: B
-For the most part enjoyable. It would have been an A if we actually got to the end.
+
+For the most part I enjoyed it. If we'd finished, it probably would've been an A.

@@ -1,19 +1,25 @@
-# Playing on My High School Soccer Team
+# Canada's Wonderland
 
 ## What was it that I did?
-I played on my high school's soccer team. That meant practices after school a few times a week, games against other schools, and sticking with it even when school got busy.
+
+I went to Canada's Wonderland with my sister and a few friends. The plan was to go on rides and check out the attractions around the park.
 
 ## When did I do it?
-From Grade 10 to Grade 12.
+
+This past summer.
 
 ## What was good about it?
-Being part of a team. You get close with people when you're all putting in the same work, and it kept me active and in a good routine during the school year.
+
+There were some cool people to talk to. That's about it.
 
 ## What was my favourite memory of it?
-Beating a team in the playoffs that had already beaten us earlier in the season. Everyone was hyped, and the bus ride home was loud the whole way back.
+
+I don't really have one. It just wasn't a fun day.
 
 ## What didn't I enjoy about it?
-Practising in the cold and rain in the fall, and trying to keep up with homework on game days when I got home late.
 
-## Grade: A
-Couldn't be better. Even with the bad weather days, I'd do it all again.
+Pretty much everything. I paid for stuff I didn't even need to pay for, I didn't get on a single ride, and the people I was with were really annoying the whole time.
+
+## Grade: F
+
+Still having nightmares. I spent a whole day and a good amount of money there and didn't get to do the one thing I went for.
